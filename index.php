@@ -1,4 +1,5 @@
-Hello World
+<?php
+echo "Hello New World";
 
 function apiRequest($url, $post=FALSE, $headers=array()) {
   $ch = curl_init($url);
